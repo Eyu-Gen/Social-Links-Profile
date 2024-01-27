@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: inter;
+    color: white;
+}
+
+body{
+    background-color: rgb(14, 13, 13);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-section{
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    width: 350px;
+    background-color: rgb(30, 30, 30);
+}
+
+#image{
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+#name{
+    font-weight: bold;
+    font-size: large;
+    margin-bottom: 5px;
+}
+
+#address{
+    color: rgb(178, 237, 28);
+    font-weight: bold;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+#bio{
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+a{
+    margin-bottom: 15px;
+}
+
+button{
+    width: 100%;
+    background-color: rgb(53, 53, 53);
+    border:none;
+    border-radius: 5px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: color 0.5s, background-color 0.5s;
+}
+
+button:hover{
+    color: rgb(30, 30, 30);
+    background-color: rgb(178, 237, 28);
+    cursor: pointer;
+}
